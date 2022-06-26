@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Quicksand;
+    src: url('../assets/quicksand/static/Quicksand-Regular.ttf');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+    user-select: none;
+}
+
+.top-navbar {
+    background: transparent url('../assets/header-pattern-image.png') 0% 0% padding-box;
+    height: 56px;
+}
+
+.card-box{
+    border-top: #3AC7EC solid 4px;
+}
+
+.form-check:nth-child(2){
+    margin-left: 32px;
+}
+
+#select-state, #select-district, #input-username, #input-password, .input-tab img{
+    outline: none;
+    border: none;
+    border-bottom: #00000042 solid 1px;
+}
+.form-check-input:checked {
+    background-color: #1F7A54;
+    border-color: #1F7A54;
+}
+#login-button{
+    height: 40px;
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    opacity: 1;
+    border: none;
+}
+.bottom-navbar{
+    background-color: #E0E1E1;
+    height: 40px;
+}
+.green-text{
+    color: #1F7A54;
+}

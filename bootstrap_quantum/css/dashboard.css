@@ -1,0 +1,140 @@
+/* Common CSS Starts */
+@font-face {
+    font-family: QuicksandRegular;
+    src: url('../assets/quicksand/static/Quicksand-Regular.ttf');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: QuicksandRegular;
+    user-select: none;
+}
+/* Common CSS Ends */
+
+/* ================================================================ */
+
+/* Navbar Starts */
+
+.top-navbar {
+    background: transparent url('../assets/header-pattern-image.png') 0% 0% padding-box;
+    height: 56px;
+}
+
+.navbar-content ul a {
+    font-size: 18px;
+    color: #3FD28B;
+    text-transform: uppercase;
+}
+
+.myactive, .myactive:hover, .myactive:focus{
+    color: #FFFFFF;
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+/* Navbar Ends */
+
+/* ================================================================== */
+
+/* Main Starts */
+
+.box{
+    margin: 24px;
+    height: 100vh;
+}
+
+.dashboard-tabs{
+    height: 64px;
+    background-color: #8DDC97;
+    margin: 0;
+    padding: 0;
+}
+
+.filters-row{
+    height: 28px;
+    margin: 24px 0 17px 0;
+}
+
+#category{
+    width: 165px;
+    margin-right: 24px;
+}
+
+.course-card{
+    height: 246px;
+    margin: 24px 24px 9px 24px;
+}
+.course-card:nth-child(4){
+    margin: 8px 24px 9px 24px;
+}
+
+.course-content{
+    height: 157px;
+}
+
+.course-image img{
+    height: 100%;
+    width: 132px;
+}
+
+.course-details{
+    margin: 0 0 0 16px;
+}
+
+.course-navigation{
+    height: 40px;
+}
+
+.classes{
+    height: 27px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.course-navigation{
+    margin-top: 16px;
+}
+
+.fm{
+    font-size: 15px;
+}
+
+.green{
+    color: #1F7A54;
+}
+.mydisabled{
+    opacity: 0.4;
+}
+
+.mr{
+    margin-right: 6px;
+}
+
+.expired p{
+    background-color: #FFE4E6;
+    color: #D80000;
+    padding: 4px 7px 2px 5px;
+}
+/* Main Ends */
+
+/* ================================================================== */
+
+/* Footer Starts */
+.bottom-navbar{
+    background-color: #E0E1E1;
+    height: 40px;
+}
+
+.green-text{
+    color: #1F7A54;
+}
+
+.navbar-toggler-icon{
+    border-color: #1F7A54;
+    stroke: #1F7A54;
+}
+/* Footer Ends */
